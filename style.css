@@ -248,16 +248,17 @@ p { margin: 0 0 15px; }
 .cfp-heading-row {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 14px;
+  max-width: 1000px;
+  margin-bottom: 22px;
 }
 
 .cfp-heading-row h2 {
-  margin: 0 0 22px;
+  margin: 0;
 }
 
 .cfp-inline-button {
-  margin-left: 10px;
   vertical-align: middle;
   white-space: nowrap;
 }

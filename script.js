@@ -120,12 +120,6 @@ function renderPage() {
     .map(text => `<p>${text}</p>`)
     .join("");
 
-  // Move the CFP button inline to the end of the first paragraph.
-  const cfpButton = document.getElementById("cfp-button");
-  if (cfpButton && cfpText.firstElementChild) {
-    cfpText.firstElementChild.appendChild(cfpButton);
-  }
-
   document.getElementById("topics-list").innerHTML = `
     <ul class="topics-list">
       ${websiteData.topics.map(topic => `<li>${topic}</li>`).join("")}
