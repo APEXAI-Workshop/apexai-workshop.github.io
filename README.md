@@ -12,8 +12,7 @@ APEX-AI is primarily a curated invited-talk workshop, complemented by a small nu
 
 ## Website
 
-https://apex-ai-workshop.github.io/hipeac27/
-
+https://apex-ai-workshop.github.io
 ## Editing
 
 Most workshop content is stored in `website-data.js`.
