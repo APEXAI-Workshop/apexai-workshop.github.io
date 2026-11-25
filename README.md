@@ -29,7 +29,7 @@ Most workshop content is stored in `website-data.js`.
 
 Upload these files to the root of the GitHub repository used for:
 
-`https://apex-ai-workshop.github.io/hipeac27/`
+`https://apexai-workshop.github.io/hipeac27/`
 
 Then enable GitHub Pages from the repository's main branch/root.
 
