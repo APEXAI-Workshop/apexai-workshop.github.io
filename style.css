@@ -236,11 +236,30 @@ p { margin: 0 0 15px; }
   max-width: 1000px;
 }
 
+#about-text p,
+#cfp-text p,
+.side-card p,
+#submission-guidelines-text p,
+#submission-guidelines-text li {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .cfp-heading-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.cfp-heading-row h2 {
+  margin: 0 0 22px;
+}
+
+.cfp-inline-button {
+  margin-left: 10px;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .button {
