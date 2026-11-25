@@ -12,7 +12,7 @@ const websiteData = {
     "Approximate, Low-Precision, Sparsity, and Efficient AI Execution from Training to Deployment",
   date: "January 19, 2027",
   location: "Glasgow, UK",
-  email: "apex.ai.workshop@gmail.com",
+  email: "academic.workshops.contact+apexai@gmail.com",
 
   menu: [
     { text: "About", link: "#about" },
